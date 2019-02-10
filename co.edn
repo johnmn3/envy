@@ -1,0 +1,9 @@
+{:main envy.core
+ :output-dir "out"
+ :asset-path "/out"
+ :watch "src"
+ :source-map true
+ :browser-repl true
+ :optimizations :none
+
+ :closure-defines {env "{:my.thing/instrument? true}"}}

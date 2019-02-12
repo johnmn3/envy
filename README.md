@@ -30,7 +30,7 @@ Now, in the REPL, let's require `envy.core` and try out `env`:
 cljs.user=> (require 'envy.core)
 nil
 cljs.user=> envy.core/env
-#:my.thing{:instrument? true}
+{:my.thing/instrument? true, :server "localhost", :port 9999}
 ```
 
 ### License

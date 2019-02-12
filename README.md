@@ -1,7 +1,7 @@
 # envy
 `envy` smooths over the importing of `:closure-defines` data from a ClojureScript project's `cljs.edn` file into an `env` var that you can use at runtime.
 
-For instance, if we had the following in your `cljs.edn` file:
+For instance, if we had the following in our `cljs.edn` file:
 ```clojure
 {
 ...
@@ -12,7 +12,7 @@ For instance, if we had the following in your `cljs.edn` file:
     :port                 9999}"}
 ...
 ```
-Then in a REPL would would be able to do `(-> envy.core/env :my.thing/instrument?)` and get back `true`.
+Then in a REPL we would be able to do `(-> envy.core/env :my.thing/instrument?)` and get back `true`.
 
 ### Usage
 Let's first clone the repo and launch a REPL:

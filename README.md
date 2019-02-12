@@ -1,5 +1,5 @@
 # envy
-Envy smooths over the importing of `:closure-defines` data from a ClojureScript project's `cljs.edn` file into an `env` var that you can use at runtime.
+`envy` smooths over the importing of `:closure-defines` data from a ClojureScript project's `cljs.edn` file into an `env` var that you can use at runtime.
 
 For instance, if we had the following in your `cljs.edn` file:
 ```clojure
